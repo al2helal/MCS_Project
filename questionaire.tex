@@ -2,22 +2,22 @@
 \usepackage{hyperref}
 \begin{document}
 \begin{Form}
-We want to buildup a statistical model to predict tution fees of students. We will use these information to build up the model. Your privacy must be ensured. Please help us for developing the model by giving your inFormation mentioning below-\\\\
-
-\TextField[name=name]{Name:}\\\\
+We want to build up a statistical model to predict tution fees of students. We will use these information to build up the model. Your privacy must be ensured. Please help us for developing the model by giving your information mentioning below-\\\\
+ 
+\TextField[name=name,align=0]{Name:}\\\\
   \ChoiceMenu[radio,name=year]{Year:}{1st,2nd,3rd,4th,MS}\\\\
-  \ChoiceMenu[radio,name=university]{University:}{BUET,DMC,DU,JNU,JU}\\\\
-  \TextField[name=dept.]{Department:}  \ChoiceMenu[radio,name=section]{Section:}{Science,Arts,Comerce}\\\\
-  \ChoiceMenu[radio,name=hsscsection]{HSSC Section:}{Science,Arts,Comerce}\\\\
-  \TextField[name=hsscCollege]{HSSC College:}\\\\
+  \ChoiceMenu[radio,name=university]{University:}{DU,BUET,DMC,JU,JNU}\\\\
+  \TextField[name=dept.]{Department:}  \ChoiceMenu[radio,name=section]{Section:}{Science,Arts,Commerce}\\\\
+  \ChoiceMenu[radio,name=hsscsection]{HSC Section:}{Science,Arts,Commerce}\\\\
+  \TextField[name=hsscCollege]{HSC College:}\\\\
   \TextField[name=hall]{Hall:}\ChoiceMenu[name=hall]{}{mess,Basha}\\\\
-  \TextField[name=homedistict]{Home Distict:}\\\\
+  \TextField[name=homedistict]{Home District:}\\\\
   \ChoiceMenu[name=foccupation]{Father's occupation:}\\\\
   \ChoiceMenu[name=moccupation]{Mother's occupation:}\\\\
   \TextField[name=familymembers]{Family members:}\\\\
-  \TextField[name=earningmembers]{No of earning members:}\\\\
+  \TextField[name=earningmembers]{No. of earning members:}\\\\
   \TextField[name=birthposition]{Birth Position:}\\\\
-  \ChoiceMenu[name=texperi]{no,1y,2y,3y,4y,4up}\\\\
+  \ChoiceMenu[name=texperi]{Experienc as tutor:}{no,1y,2y,3y,4y,4up}\\\\
   \ChoiceMenu[name=scholarship]{Getting scholarship per month:}{0.00,1-2,2.1-3.0,3.1-4.0,4.1-5.0,5up}\\\\
   \ChoiceMenu[name=takingmoneyhome]{Getting money per month from home:}{0.00,1-2,2.1-3.0,3.1-4.0,4.1-5.0,5up}\\\\
   \TextField[name=tourcount]{Number of tour per year:}\\\\
